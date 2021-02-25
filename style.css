@@ -7,6 +7,12 @@ header{
     color:aliceblue;
 }
 
+#cabecalhoTudo{
+    width: 80%;   
+    margin: 0 auto;  
+    padding-top: 1em;  
+}
+
 .cabecalhoNavegacao{
     
 }
@@ -23,6 +29,10 @@ header{
 
 #tituloPrincipal{
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 6rem;
     text-transform: uppercase; 
+}
+
+.informacaoPrincipalDestaque{
+
 }
