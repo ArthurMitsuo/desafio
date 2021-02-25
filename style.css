@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(assets/capa-madmax.jpg);
+    color:aliceblue;
+}
+
+.itemNavegacao{
+    display: inline;
+}
+
+#tituloPrincipal{
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    
+}
