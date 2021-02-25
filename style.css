@@ -7,13 +7,22 @@ header{
     color:aliceblue;
 }
 
+.cabecalhoNavegacao{
+    
+}
+
 .itemNavegacao{
-    display: inline;
+    display: inline-block;
+    position: relative;
+    margin-left: 5em;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
 }
 
 #tituloPrincipal{
     font-weight: bold;
     font-size: 4rem;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
