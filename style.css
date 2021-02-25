@@ -5,29 +5,49 @@ body{
 header{
     background-image: url(assets/capa-madmax.jpg);
     color:aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding-top: 2em;
 }
 
 #cabecalhoTudo{
     width: 80%;   
-    margin: 0 auto;  
-    padding-top: 1em;  
+    margin: 0 auto;   
 }
 
-.cabecalhoNavegacao{
-    
+header nav{
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    /* transform: translate(-50%, -50%); */
+    vertical-align: top;
 }
 
 .itemNavegacao{
     display: inline-block;
-    position: relative;
     margin-left: 5em;
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.itemPerfil{
+    position: relative;
+    margin-left: 5em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#imagemPerfil{
+    border-radius: 100%;
+    width: 4em;
 
 }
 
 #tituloPrincipal{
+    margin-top: 27rem;
     font-weight: bold;
     font-size: 6rem;
     text-transform: uppercase; 
