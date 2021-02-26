@@ -11,45 +11,64 @@ header{
     padding-top: 2em;
 }
 
+#logotipoIMDB{
+    width: 6vw;
+}
+
 #cabecalhoTudo{
-    width: 80%;   
+    width: 70%;   
     margin: 0 auto;   
 }
 
+#cabecalhoReduzido{
+    width:auto;
+ }
+
 header nav{
     position:absolute;
-    top: 10%;
-    left: 30%;
-    /* transform: translate(-50%, -50%); */
+    top: 8%;
+    left: 50%; 
+    transform: translateX(-50%);
     vertical-align: top;
 }
 
 .itemNavegacao{
     display: inline-block;
-    margin-left: 5em;
+    margin: 0 2.5em;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
-.itemPerfil{
-    position: relative;
+.nomePerfil{
     margin-left: 5em;
+    margin-right: 2em;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 12px;
+    width: 100%;
 }
 
-
 #imagemPerfil{
+    position: absolute;
     border-radius: 100%;
-    width: 4em;
+    width: 2.5em;
+    display: inline-block;
+    right: 23%;
+    top: 5.5%;
+}
 
+#pqNao{
+    position: absolute;
+    right: 17%;
+    top: 8.5%;
+    width: 10%;
+    top
 }
 
 #tituloPrincipal{
-    margin-top: 27rem;
+    margin-top: 19.5rem;
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase; 
 }
 
