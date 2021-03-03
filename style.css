@@ -3,30 +3,43 @@ body{
 }
 
 header{
-    background-image: url(assets/capa-madmax.jpg);
     color:aliceblue;
-    background-repeat: no-repeat;
-    background-size: 100%;
     position: relative;
     padding-top: 2em;
+    display: flex;
+}
+
+#imagemFundo{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background-image: url(assets/capa-madmax.jpg);
+    filter: brightness(0.6);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #logotipoIMDB{
     width: 6vw;
+    position: absolute;
+    top: 6%;
 }
 
-#cabecalhoTudo{
+#cabecalhoTudo{   
+    position: static;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
     width: 70%;   
-    margin: 0 auto;   
+    margin: 0 auto;
 }
-
-#cabecalhoReduzido{
-    width:auto;
- }
 
 header nav{
     position:absolute;
-    top: 8%;
+    top: 7%;
     left: 50%; 
     transform: translateX(-50%);
     vertical-align: top;
@@ -46,6 +59,8 @@ header nav{
     font-weight: bold;
     font-size: 12px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 #imagemPerfil{
@@ -54,7 +69,7 @@ header nav{
     width: 2.5em;
     display: inline-block;
     right: 23%;
-    top: 5.5%;
+    top: 5%;
 }
 
 #pqNao{
@@ -65,13 +80,38 @@ header nav{
     top
 }
 
+.informacaoPrincipalDestaque{
+
+}
+
 #tituloPrincipal{
-    margin-top: 19.5rem;
+    margin-top: 35%;
     font-weight: bold;
     font-size: 4rem;
     text-transform: uppercase; 
 }
 
-.informacaoPrincipalDestaque{
+#estiloFilme{
+    
+}
 
+.itemEstiloFilme{
+    display: inline-block;
+    margin: 1.5em 20px 1.5em 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.botaoAssistirTrailer{
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(221, 186, 31);
+    margin: 1.5em 0 ;
+}
+
+#dataLancamento{
+    margin: 1.5em 0 3em 0;
+    color: rgba(255, 208, 0, 0.582);
 }
