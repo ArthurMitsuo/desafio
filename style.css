@@ -110,7 +110,7 @@ header nav{
 }
 /*MAIN*/
 main {
-    background-color: rgb(228, 225, 225);
+    background-color: rgb(240, 235, 235);
     padding: 1.5em;
     /* margin: 0 auto; */
     position: relative; 
@@ -191,4 +191,28 @@ h2{
     font-weight: bold;
     font-size: 1.3em;
     margin-bottom: 10px;
+}
+/*FOOTER*/
+
+footer{
+    margin: 0 auto 30px auto;
+    width:70%;
+    padding: 30px 0;
+}
+
+#listaRedes{
+    text-align: right; 
+    position: relative;
+    top: 20px;
+}
+
+.redeSocial{
+    display: inline;
+    font-size: 12px;
+    margin: 0 20px; 
+    vertical-align: center;   
+}
+
+.logoFooter{
+    float: left;
 }
