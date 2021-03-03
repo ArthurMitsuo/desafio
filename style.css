@@ -15,7 +15,7 @@ header{
     top: 0px;
     z-index: 1;
     background-image: url(assets/capa-madmax.jpg);
-    filter: brightness(0.8);
+    filter: brightness(0.6);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -33,7 +33,7 @@ header{
     left: 0px;
     top: 0px;
     z-index: 99;
-    width: 90%;   
+    width: 75%;   
     margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ header nav{
 
 .itemNavegacao{
     display: inline-block;
-    margin: 0 2.5em;
+    margin: 0 40px;
     font-weight: bold;
     font-size: 12px;
     text-transform: uppercase;
@@ -69,7 +69,7 @@ header nav{
     width: 2.5em;
     display: inline-block;
     right: 17%;
-    top: 5%;
+    top: 5.4%;
 }
 
 #pqNao{
@@ -108,24 +108,26 @@ header nav{
     margin: 1.5em 0 3em 0;
     color: rgba(255, 208, 0, 0.582);
 }
-
+/*MAIN*/
 main {
     background-color: rgb(228, 225, 225);
     padding: 1.5em;
+    /* margin: 0 auto; */
+    position: relative; 
 }
 
-#mainDelimitacao{
-    width: 100%;   
-    margin: 0 auto;
-    text-align: center;
+.mainDelimitacao{
+    width: 90%;
+    margin: 0 auto;  
 }
 
 .topoMainUl{
-    margin-bottom: 1.5em;
-
+    margin: 1.5em auto;
+    text-align: center;
 }
 
 .itemTopoMain{
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
@@ -140,20 +142,53 @@ hr{
 }
 
 .listaDeFilmes{
-    column-count: auto;
+    text-align: center;
 }
 
 .itemFilmes{
     background-color: whitesmoke;
-    border: 1px solid #000000;
+    text-align: left;
     border-radius: 10px;
     display: inline-block;
     list-style-type:none;
     width: 20%;
     margin: 1rem 3px 1rem 3px;
+    box-shadow: -0.1px 0.7px rgb(199, 199, 199);
+    
 }
 
 .imagemItemFilmes{
     width: 100%;
-    border-radius: 10px;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.delimitacaoItem{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    left:0;
+    margin: 10px 0;
+}
+
+.classificacao{
+    color: rgba(248, 182, 60, 0.925);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.coracao{
+    font-size: 23px;;
+    color: lightgray;
+    float: left;
+}
+.nota{
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
 }
